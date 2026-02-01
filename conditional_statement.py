@@ -60,3 +60,17 @@
 # 3XX  => REDIRECT => 301=MOVED PERMANENTLY; 302: FOUND (temporary redirect); 303: CAN BE FOUND AT A DIFF URL; 304: NOT MODIFIED
 # 4XX  => CLIENT ERROR (NA YOUR FAULT): 400: BAD REQUEST; 401: UNAUTHORISED; 403: FORBIDDEN; 404: NOT FOUND; 409: CONFLICT 
 # 5XX  => SERVER ERROR (MEANING SERVER FAULT): 500 INTERNAL SERVER ERROR;
+
+
+
+status_code = int(input("enter your status code: "))
+
+match status_code:
+    case 200:
+        print("OK")
+    case 404:
+        print("NOT FOUND")
+    case 500:
+        print("SERVER ERROR")
+    case _:
+        print("UNKNOWN STATUS")
