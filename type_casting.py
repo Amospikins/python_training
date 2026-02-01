@@ -4,7 +4,7 @@
 
 # result = x+y
 # print(result)
-# print(type(result))
+# print(type(result)) sdsuiuyioyadiosufgyoiasdygouia
 
 # EXPLICIT TYPE CASTING (MANUAL TYPE CONVERSION)
 # int() - converts to integer
@@ -33,7 +33,6 @@
 
 # bool
 
-
 # print(bool(1))
 # 1 = true
 # 0 = false
@@ -43,6 +42,7 @@
 # bool(None) = false
 # x = 1
 # print(bool(x))  # true
+
 # # Empty or 0 = false
 # # anything with value = true
 
